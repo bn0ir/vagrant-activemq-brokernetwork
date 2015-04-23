@@ -1,0 +1,7 @@
+resolver:
+  build: .
+  command: ./resolver
+  volumes:
+    - .:/app
+  ports:
+    - "80:80"
