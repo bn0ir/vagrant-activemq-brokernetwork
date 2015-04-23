@@ -1,8 +1,5 @@
 #!/bin/bash
 
-SWARM01="192.168.200.3"
-SWARM02="192.168.200.4"
-
 case "$1" in
 start)
 		vagrant up
